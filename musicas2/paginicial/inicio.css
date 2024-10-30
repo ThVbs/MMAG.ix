@@ -1,0 +1,94 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1E1B1D;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 500px;
+    background-color: #2C2A2E;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #444;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+.profile {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #888;
+    margin: 0 auto 10px;
+}
+
+.welcome-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.name-label {
+    font-size: 14px;
+    color: #AAAAAA;
+}
+
+.user-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.section {
+    width: 48%;
+}
+
+.section h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.albums, .playlists {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.albums img, .playlists img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    background-color: #555;
+}
