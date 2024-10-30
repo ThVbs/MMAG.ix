@@ -10,7 +10,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     loginBTN.addEventListener("click", () => {
-        window.location.href = "../paginicial/inicio.html";
+        
     });
 });
-
