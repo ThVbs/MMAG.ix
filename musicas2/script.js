@@ -10,4 +10,5 @@ document.addEventListener("DOMContentLoaded", () => {
     cadastroBtn.addEventListener("click", () => {
         window.location.href = "./cadastro/cadastro.html";
     });
+
 });
