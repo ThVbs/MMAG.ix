@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (senha1.value !== senha2.value) {
             alert("As senhas não correspondem. Tente novamente.");
         }else{
-            window.location.href = "../paginicial/inicio.html";
+            window.location.href = "../telainicio/index.html";
         }
     });
 
