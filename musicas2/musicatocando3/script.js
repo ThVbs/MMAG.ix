@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 document.addEventListener("DOMContentLoaded", () => {
     const playBTN = document.querySelector(".play");
-    const backgroundMusic = document.getElementById(".backgroundMusic");
+    const backgroundMusic = document.getElementById("backgroundMusic");
 
     playBTN.addEventListener("click", () => {
         if (backgroundMusic.paused) {
