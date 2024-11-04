@@ -10,6 +10,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     loginBTN.addEventListener("click", () => {
-        
+        window.location.href = "../telainicio/index.html"
     });
 });
