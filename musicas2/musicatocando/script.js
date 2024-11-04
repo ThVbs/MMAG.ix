@@ -1,6 +1,17 @@
 document.addEventListener("DOMContentLoaded", () => {
     const proximaBTN = document.querySelector(".depois");
     const aleatoriaBTN = document.querySelector(".aleatorio")
+    const inicioBTN = document.querySelector(".inicio");
+    const usuarioBTN = document.querySelector(".usuario")
+    
+    inicioBTN.addEventListener("click", () => {
+        window.location.href = "../telainicio/index.html";
+    });
+
+    usuarioBTN.addEventListener("click", () => {
+        window.location.href = "../paginicial/inicio.html";
+    });
+    
 
     proximaBTN.addEventListener("click", () => {
         window.location.href = "../musicatocando3/index.html";
