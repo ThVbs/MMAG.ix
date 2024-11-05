@@ -2,7 +2,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const proximaBTN = document.querySelector(".depois");
     const aleatoriaBTN = document.querySelector(".aleatorio")
     const inicioBTN = document.querySelector(".inicio");
-    const usuarioBTN = document.querySelector(".usuario")
+    const usuarioBTN = document.querySelector(".usuario");
+    const AnteriorBTN = document.querySelector(".antes");
+
     
     inicioBTN.addEventListener("click", () => {
         window.location.href = "../telainicio/index.html";
@@ -22,6 +24,10 @@ document.addEventListener("DOMContentLoaded", () => {
             window.location.href = "../musicatocando2/index.html";
     });
     })
+
+    AnteriorBTN.addEventListener("click", () => {
+        window.location.href = "../musicatocando4/index.html";
+    });
 })
 document.addEventListener("DOMContentLoaded", () => {
     const playBTN = document.querySelector(".play");
