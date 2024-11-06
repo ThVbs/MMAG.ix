@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-image: url('./imagens/background-img-blur.png');
+    background-image: url('./imagem/background-img-blur.png');
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat; 
@@ -20,6 +20,7 @@ body {
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
     
 }
+
 .container3 {
     width: 100vw;
     height: 100vh;
@@ -34,7 +35,9 @@ body {
     border-radius: 20px;
     justify-content: center;
     align-items: center;
+    
 }
+
 .header {
     display: flex;
     justify-content: space-between;
