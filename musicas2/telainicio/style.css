@@ -143,11 +143,19 @@ body {
 .sidebar img {
     width: 50px;
     height: 50px;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
 }
 .sidebar .controls {
-    margin-top: auto;
-    margin-bottom: 20px;
+   margin-top: 50px; 
+   width: 50px;
+
+}
+.play {
+    margin: 10px 0; /* Adiciona espaçamento entre os ícones */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .search-bar:focus, input:focus{
