@@ -7,7 +7,7 @@ body {
     display: flex;
     align-items: center;
     height: 100vh;
-    color: #ffffff;
+    background-color: #090000;
 }
 .container {
     width: 99%;
