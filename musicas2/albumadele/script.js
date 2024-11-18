@@ -15,3 +15,17 @@ document.addEventListener("DOMContentLoaded", () => {
         window.location.href = "../musicatocando4/index.html";
     });
 });
+document.addEventListener("DOMContentLoaded", () => {
+    const playBTN = document.querySelector(".play");
+    const backgroundMusic = document.getElementById("backgroundMusic");
+
+    playBTN.addEventListener("click", () => {
+        if (backgroundMusic.paused) {
+            backgroundMusic.play(); 
+            playBTN.textContent = "❚❚";
+        } else {
+            backgroundMusic.pause();
+            playBTN.textContent = "►";
+        }
+    })
+})
