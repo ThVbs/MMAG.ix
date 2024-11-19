@@ -3,6 +3,7 @@ body {
     color: rgb(0, 0, 0);
     font-family: Arial, sans-serif;
 }
+
 .container3 {
     width: 100vw;
     height: 100vh;
@@ -10,16 +11,19 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
 }
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
+
 .header {
     background-color: #1D0D10;
     color: white;
@@ -29,22 +33,26 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 .header .logo {
     display: flex;
     align-items: center;
 }
+
 .header .logo img {
     height: 40px;
     margin-right: 10px;
 }
+
 .header .search-bar {
-    flex:1;
+    flex: 1;
     display: flex;
     align-items: center;
     background-color: #f0f0f0;
     border-radius: 20px;
     padding: 2px 10px;
 }
+
 .header .search-bar input {
     border: none;
     background: none;
@@ -53,28 +61,34 @@ body {
     padding: 1px;
     height: 25px;
 }
+
 .header .search-bar input::placeholder {
     color: rgb(128, 121, 121);
 }
+
 .header .search-bar img {
     width: 25px;
     height: 25px;
     margin-right: 10px;
 }
+
 .header .icons {
     display: flex;
     align-items: center;
 }
+
 .header .icons img {
     width: 30px;
     height: 30px;
     margin-left: 20px;
     cursor: pointer;
 }
+
 /* */
 .container2 {
     margin-top: 90px;
 }
+
 .section {
     width: 100%;
     max-width: 800px;
@@ -83,40 +97,50 @@ body {
     padding: 10px;
     margin-bottom: 20px;
 }
+
 .section h2 {
     margin-top: 0;
 }
-.songs, .artists, .recents {
+
+.songs,
+.artists,
+.recents {
     display: flex;
     overflow-x: auto;
 }
+
 .item {
     margin-right: 20px;
     text-align: center;
 }
+
 .item img {
     border-radius: 10px;
     width: 100px;
     height: 100px;
 }
+
 .albumAdl {
     border-radius: 50px;
     width: 105px;
     height: 105px;
     margin: 10px;
 }
+
 .item2 img {
     border-radius: 50px;
     width: 100px;
     height: 100px;
     margin: 10px;
 }
+
 .item10 img {
     border-radius: 10px;
     width: 100px;
     height: 100px;
     margin: 10px;
 }
+
 .item11 img {
     border-radius: 10px;
     width: 100px;
@@ -127,6 +151,7 @@ body {
 .item .name {
     margin-top: 5px;
 }
+
 .sidebar {
     position: fixed;
     right: 0;
@@ -140,24 +165,41 @@ body {
     padding-top: 20px;
     border-radius: 35px;
 }
+
 .sidebar img {
     width: 50px;
     height: 50px;
-    margin-bottom: 100px;
 }
+
 .sidebar .controls {
-   margin-top: 50px; 
-   width: 50px;
-
-}
-.play {
-    margin: 10px 0; /* Adiciona espaçamento entre os ícones */
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    width: 50px;
 
 }
 
-.search-bar:focus, input:focus{
+.controls img{
+    margin: 50px;
+    margin-bottom: 50px;
+}
+.controls button{
+    margin: 50px;
+    margin-bottom: 50px;
+}
+.controls audio{
+    margin: 50px;
+    margin-bottom: 50px;
+}
+
+.play {
+    width: 35px;
+    height: 35px;
+    background-color: #622F3E;
+    border-radius: 90%;
+}
+
+.search-bar:focus,
+input:focus {
     outline: none;
 }
