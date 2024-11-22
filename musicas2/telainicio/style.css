@@ -119,6 +119,26 @@ body {
     width: 100px;
     height: 100px;
 }
+.item5 {
+    margin-right: 20px;
+    text-align: center;
+}
+
+.item5 img {
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+.item6 {
+    margin-right: 20px;
+    text-align: center;
+}
+
+.item6 img {
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
 
 .albumAdl {
     border-radius: 50px;
