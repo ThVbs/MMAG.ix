@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const AnteriorBTN = document.querySelector(".antes");
     const inicioBTN = document.querySelector(".inicio");
     const usuarioBTN = document.querySelector(".usuario")
     
@@ -11,9 +10,6 @@ document.addEventListener("DOMContentLoaded", () => {
         window.location.href = "../paginicial/inicio.html";
     });
     
-    AnteriorBTN.addEventListener("click", () => {
-        window.location.href = "../musicatocando/index.html";
-    });
 
 });
 document.addEventListener("DOMContentLoaded", () => {
