@@ -7,7 +7,14 @@ document.addEventListener("DOMContentLoaded", () => {
     const albumBebeto = document.querySelector(".bebeto");
     const albumMadonna = document.querySelector(".Madonna");
     const albumBeyonce = document.querySelector(".beyonce");
-    const albumSnoop = document.querySelector(".snoop")
+    const albumSnoop = document.querySelector(".snoop");
+    const natal = document.querySelector(".item6");
+    const leozin = document.querySelector(".item5");
+    const simpatia = document.querySelector(".item")
+
+    simpatia.addEventListener("click", () => {
+        window.location.href = "../musicatocando6 copy/index.html";
+    });
 
     musicaBtn.addEventListener("click", () => {
         window.location.href = "../musicatocando/index.html";
@@ -45,6 +52,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
     albumSnoop.addEventListener("click", () => {
         window.location.href = "../albumsnoopy/index.html";
+    });
+
+    natal.addEventListener("click", () => {
+        window.location.href = "../musicatocando5/index.html";
+    });
+    
+    leozin.addEventListener("click", () => {
+        window.location.href = "../musicatocando6/index.html";
     });
 });
 document.addEventListener("DOMContentLoaded", () => {
