@@ -1,7 +1,9 @@
+
 document.addEventListener("DOMContentLoaded", () => {
     const musicaBtn = document.querySelector(".musica");
     const inicioBTN = document.querySelector(".inicio");
-    const musica1BTN = document.querySelector(".Skyfall")
+
+     document.getElementById("txt").style.display = "none"; //oculta a barra
     
     musicaBtn.addEventListener("click", () => {
         window.location.href = "../musicatocando/index.html";
@@ -11,9 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
         window.location.href = "../telainicio/index.html";
     });
     
-    musica1BTN.addEventListener("click", () => {
-        window.location.href = "../musicatocando4/index.html";
-    });
+
 });
 document.addEventListener("DOMContentLoaded", () => {
     const playBTN = document.querySelector(".play");
@@ -29,3 +29,8 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     })
 })
+
+function menu(){
+    document.getElementById("txt").style.display = "block"; //mostra a barra
+    
+}
