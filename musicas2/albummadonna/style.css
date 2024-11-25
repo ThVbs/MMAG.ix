@@ -1,36 +1,130 @@
-
-document.addEventListener("DOMContentLoaded", () => {
-    const musicaBtn = document.querySelector(".musica");
-    const inicioBTN = document.querySelector(".inicio");
-
-     document.getElementById("txt").style.display = "none"; //oculta a barra
-    
-    musicaBtn.addEventListener("click", () => {
-        window.location.href = "../musicatocando/index.html";
-    });
-
-    inicioBTN.addEventListener("click", () => {
-        window.location.href = "../telainicio/index.html";
-    });
-    
-
-});
-document.addEventListener("DOMContentLoaded", () => {
-    const playBTN = document.querySelector(".play");
-    const backgroundMusic = document.getElementById("backgroundMusic");
-
-    playBTN.addEventListener("click", () => {
-        if (backgroundMusic.paused) {
-            backgroundMusic.play(); 
-            playBTN.textContent = "❚❚";
-        } else {
-            backgroundMusic.pause();
-            playBTN.textContent = "►";
-        }
-    })
-})
-
-function menu(){
-    document.getElementById("txt").style.display = "block"; //mostra a barra
-    
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #2b1b1b;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
+.container {
+    width: 400px;
+    background-color: #090000;
+    padding: 90px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+.top-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.top-bar img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.search-bar {
+    flex: 1;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #ffffff;
+    color: #000000;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.profile img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.profile h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #ffffff;
+}
+.albums-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.album-row {
+    display: flex;
+    gap: 10px;
+    background-color: #622F3E;
+    padding: 10px;
+    border-radius: 10px;
+}
+.album-row img {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+}
+.sidebar {
+    position: absolute;
+    right: -60px;
+    top: 0;
+    bottom: 0;
+    width: 80px;
+    background-color: #622F3E;
+    border-radius: 0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 90px;
+    gap: 20px;
+}
+.sidebar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+.sidebar-icon {
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #5a3a3a;
+    font-size: 18px;
+}
+.sidebar-icon1 {
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #5a3a3a;
+    font-size: 18px;
+}
+.sidebar-icon2 {
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #5a3a3a;
+    font-size: 18px;
+}
+#txt {
+    width: 400px;
+    background-color: #090000;
+    padding: 90px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    position: left;
+}
+
