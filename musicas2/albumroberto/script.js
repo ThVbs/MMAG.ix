@@ -1,6 +1,9 @@
+
 document.addEventListener("DOMContentLoaded", () => {
     const musicaBtn = document.querySelector(".musica");
-    const inicioBTN = document.querySelector(".inicio")
+    const inicioBTN = document.querySelector(".inicio");
+
+     document.getElementById("txt").style.display = "none"; //oculta a barra
     
     musicaBtn.addEventListener("click", () => {
         window.location.href = "../musicatocando/index.html";
@@ -26,3 +29,8 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     })
 })
+
+function menu(){
+    document.getElementById("txt").style.display = "block"; //mostra a barra
+    
+}
