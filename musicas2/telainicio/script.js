@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const simpatia = document.querySelector(".item");
 
     simpatia.addEventListener("click", () => {
-        window.location.href = "../musicatocando6 copy/index.html";
+        window.location.href = "../musicatocando7/index.html";
     });
 
     musicaBtn.addEventListener("click", () => {
