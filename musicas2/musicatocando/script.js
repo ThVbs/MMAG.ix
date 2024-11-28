@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const inicioBTN = document.querySelector(".inicio");
     const usuarioBTN = document.querySelector(".usuario");
     const AnteriorBTN = document.querySelector(".antes");
+    
 
     
     inicioBTN.addEventListener("click", () => {
@@ -35,12 +36,38 @@ document.addEventListener("DOMContentLoaded", () => {
 
     playBTN.addEventListener("click", () => {
         if (backgroundMusic.paused) {
-            backgroundMusic.play(); // Toca a música
+            backgroundMusic.play(); 
             playBTN.textContent = "❚❚";
         } else {
-            backgroundMusic.pause(); // Pausa a música
+            backgroundMusic.pause();
             playBTN.textContent = "►";
         }
     });
 });
+document.addEventListener('DOMContentLoaded', () => {
+    const audioPlayer = document.getElementById('audio-player');
+    const lyricLines = document.querySelectorAll('.lyric-line');
 
+   
+    const lyrics = [
+        { time: 24, element: document.getElementById('line1') },
+        { time: 28, element: document.getElementById('line2') },
+        { time: 32, element: document.getElementById('line3') },
+    ];
+
+    
+    function updateLyrics(currentTime) {
+        lyrics.forEach(({ time, element }) => {
+            if (currentTime >= time && currentTime < time + 5) {
+                element.classList.add('active');
+            } else {
+                element.classList.remove('active');
+            }
+        });
+    }
+
+
+    audioPlayer.addEventListener('timeupdate', () => {
+        updateLyrics(audioPlayer.currentTime);
+    });
+});
