@@ -127,4 +127,21 @@ body {
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
     position: left;
 }
+.play {
+    width: 30px;
+    height: 30px; 
+    padding: 50; 
+    border-radius: 50%; 
+    overflow: hidden; 
+    background-color: transparent; 
+  }
+  
+
+.button {
+    width: 50%; 
+    height: 10%;
+    object-fit: cover; 
+
+  }
+
 
