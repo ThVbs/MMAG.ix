@@ -23,7 +23,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid #622F3E;
+    border-bottom: 0px solid #622F3E;
 }
 
 .header .logo {
