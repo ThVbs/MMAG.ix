@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const albumSnoop = document.querySelector(".snoop");
     const natal = document.querySelector(".item6");
     const leozin = document.querySelector(".item5");
-    const simpatia = document.querySelector(".item")
+    const simpatia = document.querySelector(".item");
 
     simpatia.addEventListener("click", () => {
         window.location.href = "../musicatocando6 copy/index.html";
