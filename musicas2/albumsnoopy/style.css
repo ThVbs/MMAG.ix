@@ -137,7 +137,7 @@ body {
   }
   
 
-button {
+.button {
     width: 50%; 
     height: 10%;
     object-fit: cover; 
