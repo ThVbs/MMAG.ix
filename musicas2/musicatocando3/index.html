@@ -23,17 +23,48 @@
             <h3>Meiga e abusada</h3>
             <p>Anitta</p>
         </div>
-        <input type="range" class="progress-bar" min="0" max="100" value="0">
+        <audio id="audio-player" controls>
+            <source src="assets/Anitta - Meiga e Abusada (Letra).mp3" type="audio/mp3">
+            Seu navegador não suporta o elemento de áudio.
+        </audio>
         <div class="controls">
-            <button class="aleatorio"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M560-160v-80h104L537-367l57-57 126 126v-102h80v240H560Zm-344 0-56-56 504-504H560v-80h240v240h-80v-104L216-160Zm151-377L160-744l56-56 207 207-56 56Z"/></svg></button>
+            <button class="aleatorio" onclick="tocarBob()"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M560-160v-80h104L537-367l57-57 126 126v-102h80v240H560Zm-344 0-56-56 504-504H560v-80h240v240h-80v-104L216-160Zm151-377L160-744l56-56 207 207-56 56Z"/></svg></button>
             <button class="antes"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M220-240v-480h80v480h-80Zm520 0L380-480l360-240v480Zm-80-240Zm0 90v-180l-136 90 136 90Z"/></svg></button>
-            <button class="play"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M320-200v-560l440 280-440 280Zm80-280Zm0 134 210-134-210-134v268Z"/></svg></button>
-            <audio id="backgroundMusic" src="assets/Anitta - Meiga e Abusada (Letra).mp3"></audio>
             <button class="depois"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M660-240v-480h80v480h-80Zm-440 0v-480l360 240-360 240Zm80-240Zm0 90 136-90-136-90v180Z"/></svg></button>
             <button class="addPlay"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M120-320v-80h320v80H120Zm0-160v-80h480v80H120Zm0-160v-80h480v80H120Zm520 520v-320l240 160-240 160Z"/></svg></button>
         </div>
+        <button onclick="letra()">Ver Letra</button>
     </div>
 </div>
+<div id="txt">
+    <button onclick="voltar()">Voltar</button>
+    <div class="lyrics">
+        <p id="line1" class="lyric-line">Eu posso conquistar tudo que eu quero</p>
+        <p id="line2" class="lyric-line">Mas foi tão fácil pra te controlar</p>
+        <p id="line3" class="lyric-line">Com jeito de menina brincalhona</p>
+        <p id="line4" class="lyric-line">A fórmula perfeita pra poder te comandar</p>
+        <p id="line5" class="lyric-line">Pensou que eu fosse cair mesmo nesse papo</p>
+        <p id="line6" class="lyric-line">Que tá solteiro e agora quer parar</p>
+        <p id="line7" class="lyric-line">Eu finjo, vou fazendo meu teatro</p>
+        <p id="line8" class="lyric-line">E te faço de palhaço, pra te dominar</p>
+        <p id="line9" class="lyric-line">Tá fazendo tudo que eu mando</p>
+        <p id="line10" class="lyric-line">Achando que logo vai me ter</p>
+        <p id="line11" class="lyric-line">Mas no fundo eu só tô brincando com você</p>
+        <p id="line12" class="lyric-line">Poderosa, eu sou quase um anjo</p>
+        <p id="line13" class="lyric-line">Hipnose, já ganhei você</p>
+        <p id="line14" class="lyric-line">Nesse jogo vamos ver quem é que vai vencer</p>
+        <p id="line15" class="lyric-line">Toda produzida, ah, te deixo quente</p>
+        <p id="line16" class="lyric-line">Meiga e abusada, faço você se perder</p>
+        <p id="line17" class="lyric-line">E quem foi que disse</p>
+        <p id="line18" class="lyric-line">Que eu estava apaixonada por você?</p>
+        <p id="line19" class="lyric-line">Eu só quero saber</p>
+        <p id="line20" class="lyric-line">Linda e perfumada, ah, na tua mente</p></p>
+        <p id="line21" class="lyric-line">Faz o que quiser comigo na imaginação</p>
+    </div>
+</div>
+
+    <div id="innerHTMLtxt"></div>
+  <div id="textContenttxt"><div>
     <script src="script.js"></script>
 </body>
 </html>
