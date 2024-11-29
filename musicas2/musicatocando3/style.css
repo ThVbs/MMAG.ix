@@ -34,6 +34,7 @@ body {
     border-radius: 20px;
     justify-content: center;
     align-items: center;
+    margin-top: 10%;
     
 }
 
@@ -73,6 +74,10 @@ body {
     font-size: 14px;
     color: #000000;
 }
+audio::-webkit-media-controls-panel{
+    background-color: #57353F;
+    border-color: #57353F;
+}
 .controls {
     display: flex;
     justify-content: space-around;
@@ -88,4 +93,34 @@ body {
 .progress-bar {
     width: 100%;
     margin: 10px 0;
+}
+audio {
+    width: 100%;
+    margin-top: 10px;
+}
+#txt {
+    width: 900px;
+    background-color: #57353F;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    margin: 25px;
+    margin-top: 55%;
+    
+}
+.lyrics {
+    margin-top: 20px;
+}
+
+.lyric-line {
+    font-size: 1.2rem;
+    color: #000000;
+    opacity: 0.5;
+    transition: opacity 0.5s ease;
+}
+
+.lyric-line.active {
+    opacity: 1;
+    font-weight: bold;
+    color: #000000;
 }
