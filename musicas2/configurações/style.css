@@ -9,16 +9,13 @@ body {
     align-items: center;
     height: 100vh;
   }
-  .header .logo {
+.logo {
     display: flex;
     align-items: center;
-}
-
-.header .logo img {
     height: 40px;
     margin-right: 10px;
 }
-  
+
   .config-container {
     background-color: #57353F; /* Cor marrom escura */
     padding: 40px; /* Espaço dentro do container */
