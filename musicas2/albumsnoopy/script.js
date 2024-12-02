@@ -5,8 +5,21 @@ document.addEventListener("DOMContentLoaded", () => {
   const di = document.querySelector(".di");
   const ds = document.querySelector(".ds");
   const workout = document.querySelector(".workout");
-
-  document.getElementById("txt").style.display = "none"; //oculta a barra
+  const usuarioBTN = document.querySelector(".user-button");
+  const topBTN = document.querySelector(".top-hits");
+  const confBTN = document.querySelector(".config-button");
+    
+    document.getElementById("txt").style.display = "none";
+    
+    usuarioBTN.addEventListener("click", () => {
+        window.location.href = "../paginicial/inicio.html";
+    });  
+    confBTN.addEventListener("click", () => {
+        window.location.href = "../configurações/index.html";
+    });  
+    topBTN.addEventListener("click", () => {
+        window.location.href = "../telainicio/index.html";
+    });    
   
   musicaBtn.addEventListener("click", () => {
       window.location.href = "../musicatocando/index.html";
