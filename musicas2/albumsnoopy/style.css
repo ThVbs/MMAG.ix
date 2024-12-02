@@ -167,4 +167,88 @@ body {
 
 
   }
+  #user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .user-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    padding: 10px;
+    background-color: #622F3E;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .user-button img.usuario {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 8px;
+  }
+  
+  .user-button .perfil-texto {
+    font-size: 12px;
+    color: white;
+  }
+  #hits {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .top-hits {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente os elementos */
+    padding: 10px 20px;
+    background-color: #090000; /* Cor do fundo */
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    gap: 8px; /* Espaçamento entre a imagem e o texto */
+  }
+  
+  .top-hits img.hit-icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .top-hits .hit-texto {
+    color: white;
+    font-weight: bold;
+  }
+
+#config {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.config-button {
+    display: flex;
+    align-items: center; 
+    padding: 8px 16px;
+    background-color: #090000; 
+    border: none;
+    border-radius:
+    cursor: pointer;
+}
+
+.config-button img.config-icon {
+    width: 18px;
+    height: 18px;
+}
 
