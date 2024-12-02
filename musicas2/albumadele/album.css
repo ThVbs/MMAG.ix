@@ -144,5 +144,29 @@ body {
 
   }
 
+.sidebar-icon {
+
+    width: 30px;
+    height: 30px; 
+    padding: 50; 
+    border-radius: 50%; 
+    overflow: hidden; 
+    background-color: transparent; 
+
+
+  }
+
+  .sidebar-icon1 {
+
+    width: 30px;
+    height: 30px; 
+    padding: 50; 
+    border-radius: 50%; 
+    overflow: hidden; 
+    background-color: transparent; 
+
+
+  }
+
         
 
