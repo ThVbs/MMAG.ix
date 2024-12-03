@@ -11,6 +11,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const natal = document.querySelector(".item6");
     const leozin = document.querySelector(".item5");
     const simpatia = document.querySelector(".item");
+    const sweet = document.querySelector(".item27")
+    
+    sweet.addEventListener("click", () => {
+        window.location.href = "../musicatocando27/index.html"
+    })
 
     simpatia.addEventListener("click", () => {
         window.location.href = "../musicatocando7/index.html";
