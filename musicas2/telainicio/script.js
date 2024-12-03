@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const natal = document.querySelector(".item6");
     const leozin = document.querySelector(".item5");
     const simpatia = document.querySelector(".item");
-    const sweet = document.querySelector(".item27")
+    const sweet = document.querySelector(".item7")
     
     sweet.addEventListener("click", () => {
         window.location.href = "../musicatocando27/index.html";
