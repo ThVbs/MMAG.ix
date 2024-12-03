@@ -20,24 +20,25 @@ document.addEventListener('DOMContentLoaded', () => {
 
    
     const lyrics = [
-        { time: 32, element: document.getElementById('line1') },
-        { time: 37, element: document.getElementById('line2') },
-        { time: 44, element: document.getElementById('line3') },
-        { time: 50, element: document.getElementById('line4') },
-        { time: 58, element: document.getElementById('line5') },
-        { time: 63, element: document.getElementById('line6') },
-        { time: 69, element: document.getElementById('line7') },
-        { time: 75, element: document.getElementById('line8') },
-        { time: 82, element: document.getElementById('line9') },
-        { time: 86, element: document.getElementById('line10') },
-        { time: 89, element: document.getElementById('line11') },
-        { time: 92, element: document.getElementById('line12') },
+        { time: 43, element: document.getElementById('line1') },
+        { time: 47, element: document.getElementById('line2') },
+        { time: 52, element: document.getElementById('line3') },
+        { time: 55, element: document.getElementById('line4') },
+        { time: 60, element: document.getElementById('line5') },
+        { time: 64, element: document.getElementById('line6') },
+        { time: 68, element: document.getElementById('line7') },
+        { time: 73, element: document.getElementById('line8') },
+        { time: 76, element: document.getElementById('line9') },
+        { time: 80, element: document.getElementById('line10') },
+        { time: 85, element: document.getElementById('line11') },
+        { time: 90, element: document.getElementById('line12') },
         { time: 96, element: document.getElementById('line13') },
         { time: 100, element: document.getElementById('line14') },
         { time: 102, element: document.getElementById('line15') },
         { time: 105, element: document.getElementById('line16') },
         { time: 108, element: document.getElementById('line17') },
         { time: 113, element: document.getElementById('line18') },
+        
     ];
 
     
