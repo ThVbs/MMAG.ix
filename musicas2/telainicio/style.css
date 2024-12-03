@@ -140,6 +140,17 @@ body {
     height: 100px;
 }
 
+.item7 {
+    margin-right: 20px;
+    text-align: center;
+}
+
+.item7 img {
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+
 .albumAdl {
     border-radius: 50px;
     width: 105px;
