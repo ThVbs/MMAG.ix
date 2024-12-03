@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const sweet = document.querySelector(".item27")
     
     sweet.addEventListener("click", () => {
-        window.location.href = "../musicatocando27/index.html"
+        window.location.href = "../musicatocando27/index.html";
     })
 
     simpatia.addEventListener("click", () => {
