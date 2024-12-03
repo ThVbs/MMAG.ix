@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Música Tocando</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <div class="container">
+        <div class="header">
+            <img src="./imagem/mago.png" alt="Logo" class="inicio">
+            <img src="./imagem/do-utilizador.png" alt="user" class="usuario">
+        </div>
+</header>
+<body>
+    <div class="container3">
+        <div class="container2">
+            <div class="header2">
+            </div>
+            <img src="./imagem/UNHEARD.jpg" alt="Album Cover" class="album-cover">
+            <div class="track-info">
+                <h3>Too Sweet</h3>
+                <p>Hozier</p>
+            </div>
+            <input type="range" class="progress-bar" min="0" max="100" value="0">
+            <div class="controls">
+                <button class="aleatorio" onclick="tocarBob()"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M560-160v-80h104L537-367l57-57 126 126v-102h80v240H560Zm-344 0-56-56 504-504H560v-80h240v240h-80v-104L216-160Zm151-377L160-744l56-56 207 207-56 56Z"/></svg></button>
+                <button class="antes"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M220-240v-480h80v480h-80Zm520 0L380-480l360-240v480Zm-80-240Zm0 90v-180l-136 90 136 90Z"/></svg></button>
+                <button class="play"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M320-200v-560l440 280-440 280Zm80-280Zm0 134 210-134-210-134v268Z"/></svg></button>
+                <audio id="backgroundMusic" src="./assets/Hozier - Too Sweet (Official Video).mp3"></audio>
+                <button class="depois"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M660-240v-480h80v480h-80Zm-440 0v-480l360 240-360 240Zm80-240Zm0 90 136-90-136-90v180Z"/></svg></button>
+                <button class="addPlay"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M120-320v-80h320v80H120Zm0-160v-80h480v80H120Zm0-160v-80h480v80H120Zm520 520v-320l240 160-240 160Z"/></svg></button>
+            </div>
+        </div>
+    </div>
+    <button onclick="letra()">Ver Letra</button>
+    </div>
+</div>
+<div id="txt">
+    <button onclick="voltar()">Voltar</button>
+    <div class="lyrics">
+        <p id="line1" class="lyric-line">It can't be said I'm an early bird</p>
+<p id="line2" class="lyric-line">It's ten o'clock before I say a word</p>
+<p id="line3" class="lyric-line">Baby, I can never tell</p>
+<p id="line4" class="lyric-line">How do you sleep so well?</p>
+<p id="line5" class="lyric-line">You keep telling me to live right</p>
+<p id="line6" class="lyric-line">To go to bed before the daylight</p>
+<p id="line7" class="lyric-line">But then you wake up for the sunrise</p>
+<p id="line8" class="lyric-line">You know you don't gotta pretend, baby, now and then</p>
+<p id="line9" class="lyric-line">Don't you just wanna wake up, dark as a lake?</p>
+<p id="line10" class="lyric-line">Smelling like a bonfire, lost in a haze?</p>
+<p id="line11" class="lyric-line">If you're drunk on life, babe, I think it's great</p>
+<p id="line12" class="lyric-line">But while in this world</p>
+<p id="line13" class="lyric-line">I think I'll take my whiskey neat</p>
+<p id="line14" class="lyric-line">My coffee black and my bed at three</p>
+<p id="line15" class="lyric-line">You're too sweet for me</p>
+<p id="line16" class="lyric-line">You're too sweet for me</p>
+<p id="line17" class="lyric-line">I take my whiskey neat</p>
+<p id="line18" class="lyric-line">My coffee black and my bed at three</p>
+<p id="line19" class="lyric-line">You're too sweet for me</p>
+<p id="line20" class="lyric-line">You're too sweet for me</p>
+<p id="line21" class="lyric-line">Ooh</p>
+<p id="line22" class="lyric-line">Ooh</p>
+<p id="line23" class="lyric-line">Ooh</p>
+<p id="line24" class="lyric-line">Ooh</p>
+<p id="line25" class="lyric-line">I aim low</p>
+<p id="line26" class="lyric-line">I aim true, and the ground's where I go</p>
+<p id="line27" class="lyric-line">I work late, where I'm free from the phone</p>
+<p id="line28" class="lyric-line">And the job gets done, but you worry some, I know</p>
+<p id="line29" class="lyric-line">But who wants to live forever, babe?</p>
+<p id="line30" class="lyric-line">You treat your mouth as if it's Heaven's gate</p>
+<p id="line31" class="lyric-line">The rest of you like you're the TSA</p>
+<p id="line32" class="lyric-line">I wish I could go along, babe, don't get me wrong</p>
+<p id="line33" class="lyric-line">You know you're bright as the morning, as soft as the rain</p>
+<p id="line34" class="lyric-line">Pretty as a vine, as sweet as a grape</p>
+<p id="line35" class="lyric-line">If you can sit in a barrel, maybe I'll wait</p>
+<p id="line36" class="lyric-line">Until that day</p>
+<p id="line37" class="lyric-line">I'd rather take my whiskey neat</p>
+<p id="line38" class="lyric-line">My coffee black and my bed at three</p>
+<p id="line39" class="lyric-line">You're too sweet for me</p>
+<p id="line40" class="lyric-line">You're too sweet for me</p>
+<p id="line41" class="lyric-line">I take my whiskey neat</p>
+<p id="line42" class="lyric-line">My coffee black and my bed at three</p>
+<p id="line43" class="lyric-line">You're too sweet for me</p>
+<p id="line44" class="lyric-line">You're too sweet for me</p>
+<p id="line45" class="lyric-line">Whoa, oh</p>
+<p id="line46" class="lyric-line">Whoa, oh</p>
+<p id="line47" class="lyric-line">Whoa, oh</p>
+<p id="line48" class="lyric-line">Whoa, oh</p>
+<p id="line49" class="lyric-line">Whoa, oh</p>
+<p id="line50" class="lyric-line">Whoa, oh</p>
+<p id="line51" class="lyric-line">Whoa, oh</p>
+<p id="line52" class="lyric-line">Whoa, oh</p>
+<p id="line53" class="lyric-line">I take my whiskey neat</p>
+<p id="line54" class="lyric-line">My coffee black and my bed at three</p>
+<p id="line55" class="lyric-line">You're too sweet for me</p>
+<p id="line56" class="lyric-line">You're too sweet for me</p>
+
+
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
