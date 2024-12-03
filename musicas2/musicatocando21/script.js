@@ -20,15 +20,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
    
     const lyrics = [
-        { time: 32, element: document.getElementById('line1') },
-        { time: 37, element: document.getElementById('line2') },
-        { time: 44, element: document.getElementById('line3') },
-        { time: 50, element: document.getElementById('line4') },
-        { time: 58, element: document.getElementById('line5') },
-        { time: 63, element: document.getElementById('line6') },
-        { time: 69, element: document.getElementById('line7') },
-        { time: 75, element: document.getElementById('line8') },
-        { time: 82, element: document.getElementById('line9') },
+        { time: 13, element: document.getElementById('line1') },
+        { time: 17, element: document.getElementById('line2') },
+        { time: 20, element: document.getElementById('line3') },
+        { time: 24, element: document.getElementById('line4') },
+        { time: 27, element: document.getElementById('line5') },
+        { time: 30, element: document.getElementById('line6') },
+        { time: 34, element: document.getElementById('line7') },
+        { time: 38, element: document.getElementById('line8') },
+        { time: 41, element: document.getElementById('line9') },
         { time: 86, element: document.getElementById('line10') },
         { time: 89, element: document.getElementById('line11') },
         { time: 92, element: document.getElementById('line12') },
@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     function updateLyrics(currentTime) {
         lyrics.forEach(({ time, element }) => {
-            if (currentTime >= time && currentTime < time + 4) {
+            if (currentTime >= time && currentTime < time + 3) {
                 element.classList.add('active');
             } else {
                 element.classList.remove('active');
