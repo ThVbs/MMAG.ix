@@ -8,12 +8,11 @@ const client = new Client({
 });
 async function conectarBancoDeDados() {
   try {
-    await client.connect();  // Estabelece a conexão
+    await client.connect();
     console.log('Conexão bem-sucedida com o banco de dados!');
   } catch (err) {
     console.error('Erro ao conectar ao banco de dados:', err.stack);
   }
 }
 
-// Executa a conexão
 conectarBancoDeDados();
