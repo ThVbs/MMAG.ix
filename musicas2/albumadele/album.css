@@ -120,138 +120,135 @@ body {
     font-size: 18px;
 }
 #txt {
-    width: 400px;
-    background-color: #090000;
-    padding: 90px;
-    border-radius: 15px;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
-    position: left;
+  width: 400px;
+  background-color: #090000;
+  padding: 90px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  position: left;
 }
 .play {
-    width: 30px;
-    height: 30px; 
-    padding: 50; 
-    border-radius: 50%; 
-    overflow: hidden; 
-    background-color: transparent; 
-  }
-  
+  width: 30px;
+  height: 30px; 
+  padding: 50; 
+  border-radius: 50%; 
+  overflow: hidden; 
+  background-color: transparent; 
+}
+
 
 .button {
-    width: 50%; 
-    height: 10%;
-    object-fit: cover; 
+  width: 50%; 
+  height: 10%;
+  object-fit: cover; 
 
-  }
+}
 
 .sidebar-icon {
 
-    width: 30px;
-    height: 30px; 
-    padding: 50; 
-    border-radius: 50%; 
-    overflow: hidden; 
-    background-color: transparent; 
+  width: 30px;
+  height: 30px; 
+  padding: 50; 
+  border-radius: 50%; 
+  overflow: hidden; 
+  background-color: transparent; 
 
 
-  }
+}
 
-  .sidebar-icon1 {
+.sidebar-icon1 {
 
-    width: 30px;
-    height: 30px; 
-    padding: 50; 
-    border-radius: 50%; 
-    overflow: hidden; 
-    background-color: transparent; 
-        #user {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .user-button {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100px;
-    padding: 10px;
-    background-color: #622F3E;
-    border: none;
-    border-radius: 8px;
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-  .user-button img.usuario {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    margin-bottom: 8px;
-  }
-  
-  .user-button .perfil-texto {
-    font-size: 12px;
-    color: white;
-  }
-  #hits {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
-  }
-  
-  .top-hits {
-    display: flex;
-    align-items: center; /* Centraliza verticalmente os elementos */
-    padding: 10px 20px;
-    background-color: #090000; /* Cor do fundo */
-    border: none;
-    border-radius: 8px;
-    color: white;
-    cursor: pointer;
-    font-size: 16px;
-    font-family: Arial, sans-serif;
-    gap: 8px; /* Espaçamento entre a imagem e o texto */
-  }
-  
-  .top-hits img.hit-icon {
-    width: 20px;
-    height: 20px;
-  }
-  
-  .top-hits .hit-texto {
-    color: white;
-    font-weight: bold;
-  }
+  width: 30px;
+  height: 30px; 
+  padding: 50; 
+  border-radius: 50%; 
+  overflow: hidden; 
+  background-color: transparent; 
+
+
+}
+
+#user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  padding: 10px;
+  background-color: #622F3E;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.user-button img.usuario {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 8px;
+}
+
+.user-button .perfil-texto {
+  font-size: 12px;
+  color: white;
+}
+#hits {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.top-hits {
+  display: flex;
+  align-items: center; /* Centraliza verticalmente os elementos */
+  padding: 10px 20px;
+  background-color: #090000; /* Cor do fundo */
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  gap: 8px; /* Espaçamento entre a imagem e o texto */
+}
+
+.top-hits img.hit-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.top-hits .hit-texto {
+  color: white;
+  font-weight: bold;
+}
 
 #config {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
 }
 
 .config-button {
-    display: flex;
-    align-items: center; 
-    padding: 8px 16px;
-    background-color: #090000; 
-    border: none;
-    border-radius:
-    cursor: pointer;
+  display: flex;
+  align-items: center; 
+  padding: 8px 16px;
+  background-color: #090000; 
+  border: none;
+  border-radius:
+  cursor: pointer;
 }
 
 .config-button img.config-icon {
-    width: 18px;
-    height: 18px;
+  width: 18px;
+  height: 18px;
 }
-
-
-
-  }
-
-        
-
