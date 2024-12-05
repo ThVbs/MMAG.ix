@@ -1,256 +1,254 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #2b1b1b;
-    color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #2b1b1b;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 .container {
-    width: 400px;
-    background-color: #090000;
-    padding: 90px;
-    border-radius: 15px;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
-    position: relative;
+  width: 400px;
+  background-color: #090000;
+  padding: 90px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  position: relative;
 }
 .top-bar {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
 }
 .top-bar img {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
 }
 .search-bar {
-    flex: 1;
-    padding: 5px 10px;
-    border-radius: 20px;
-    border: none;
-    background-color: #ffffff;
-    color: #000000;
+  flex: 1;
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: #ffffff;
+  color: #000000;
 }
 .profile {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
 }
 .profile img {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    margin-right: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 10px;
 }
 .profile h2 {
-    margin: 0;
-    font-size: 18px;
-    color: #ffffff;
+  margin: 0;
+  font-size: 18px;
+  color: #ffffff;
 }
 .albums-section {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 .album-row {
-    display: flex;
-    gap: 10px;
-    background-color: #622F3E;
-    padding: 10px;
-    border-radius: 10px;
+  display: flex;
+  gap: 10px;
+  background-color: #622F3E;
+  padding: 10px;
+  border-radius: 10px;
 }
 .album-row img {
-    width: 60px;
-    height: 60px;
-    border-radius: 5px;
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
 }
 .sidebar {
-    position: absolute;
-    right: -60px;
-    top: 0;
-    bottom: 0;
-    width: 80px;
-    background-color: #622F3E;
-    border-radius: 0 15px 15px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 90px;
-    gap: 20px;
+  position: absolute;
+  right: -60px;
+  top: 0;
+  bottom: 0;
+  width: 80px;
+  background-color: #622F3E;
+  border-radius: 0 15px 15px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 90px;
+  gap: 20px;
 }
 .sidebar img {
-    width: 50px;
-    height: 50px;
-    border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
 }
 .sidebar-icon {
-    width: 30px;
-    height: 30px;
-    background-color: #ffffff;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #5a3a3a;
-    font-size: 18px;
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #5a3a3a;
+  font-size: 18px;
 }
 .sidebar-icon1 {
-    width: 30px;
-    height: 30px;
-    background-color: #ffffff;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #5a3a3a;
-    font-size: 18px;
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #5a3a3a;
+  font-size: 18px;
 }
 .sidebar-icon2 {
-    width: 30px;
-    height: 30px;
-    background-color: #ffffff;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #5a3a3a;
-    font-size: 18px;
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #5a3a3a;
+  font-size: 18px;
 }
 #txt {
-    width: 40px;
-    height: 400px;
-    background-color: #090000;
-    padding: 40px;
-    border-radius: 15px;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
-    margin: 10%;
+  width: 40px;
+  height: 400px;
+  background-color: #090000;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  margin: 10%;
 }
 .play {
-    width: 30px;
-    height: 30px; 
-    padding: 50; 
-    border-radius: 50%; 
-    overflow: hidden; 
-    background-color: transparent; 
-  }
-  
+  width: 30px;
+  height: 30px; 
+  padding: 50; 
+  border-radius: 50%; 
+  overflow: hidden; 
+  background-color: transparent; 
+}
+
 
 .button {
-    width: 50%; 
-    height: 10%;
-    object-fit: cover; 
+  width: 50%; 
+  height: 10%;
+  object-fit: cover; 
 
-  }
+}
 
 .sidebar-icon {
 
-    width: 30px;
-    height: 30px; 
-    padding: 50; 
-    border-radius: 50%; 
-    overflow: hidden; 
-    background-color: transparent; 
+  width: 30px;
+  height: 30px; 
+  padding: 50; 
+  border-radius: 50%; 
+  overflow: hidden; 
+  background-color: transparent; 
 
 
-  }
+}
 
-  .sidebar-icon1 {
+.sidebar-icon1 {
 
-    width: 30px;
-    height: 30px; 
-    padding: 50; 
-    border-radius: 50%; 
-    overflow: hidden; 
-    background-color: transparent; 
+  width: 30px;
+  height: 30px; 
+  padding: 50; 
+  border-radius: 50%; 
+  overflow: hidden; 
+  background-color: transparent; 
 
 
-  }
+}
 
-  #user {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .user-button {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100px;
-    padding: 10px;
-    background-color: #622F3E;
-    border: none;
-    border-radius: 8px;
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-  .user-button img.usuario {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    margin-bottom: 8px;
-  }
-  
-  .user-button .perfil-texto {
-    font-size: 12px;
-    color: white;
-  }
-  #hits {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
-  }
-  
-  .top-hits {
-    display: flex;
-    align-items: center; /* Centraliza verticalmente os elementos */
-    padding: 10px 20px;
-    background-color: #090000; /* Cor do fundo */
-    border: none;
-    border-radius: 8px;
-    color: white;
-    cursor: pointer;
-    font-size: 16px;
-    font-family: Arial, sans-serif;
-    gap: 8px; /* Espaçamento entre a imagem e o texto */
-  }
-  
-  .top-hits img.hit-icon {
-    width: 20px;
-    height: 20px;
-  }
-  
-  .top-hits .hit-texto {
-    color: white;
-    font-weight: bold;
-  }
+#user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  padding: 10px;
+  background-color: #622F3E;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.user-button img.usuario {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 8px;
+}
+
+.user-button .perfil-texto {
+  font-size: 12px;
+  color: white;
+}
+#hits {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.top-hits {
+  display: flex;
+  align-items: center; /* Centraliza verticalmente os elementos */
+  padding: 10px 20px;
+  background-color: #090000; /* Cor do fundo */
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  gap: 8px; /* Espaçamento entre a imagem e o texto */
+}
+
+.top-hits img.hit-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.top-hits .hit-texto {
+  color: white;
+  font-weight: bold;
+}
 
 #config {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
 }
 
 .config-button {
-    display: flex;
-    align-items: center; 
-    padding: 8px 16px;
-    background-color: #090000; 
-    border: none;
-    border-radius:
-    cursor: pointer;
+  display: flex;
+  align-items: center; 
+  padding: 8px 16px;
+  background-color: #090000; 
+  border: none;
 }
 
 .config-button img.config-icon {
-    width: 18px;
-    height: 18px;
+  width: 18px;
+  height: 18px;
 }
 
